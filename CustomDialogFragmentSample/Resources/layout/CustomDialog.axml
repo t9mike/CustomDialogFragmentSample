@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/custom_dialog"
+    android:padding="20dp">
+    <TextView
+        android:text="Hello There World!!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_gravity="center_horizontal"
+        style="@android:style/TextAppearance.Medium.Inverse" />
+    <Button
+        android:text="Dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_Dismiss"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        style="@android:style/TextAppearance.Medium.Inverse" />
+</LinearLayout>
